@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF73AD6727CCD2AF00ECA0C5 /* AgeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBB9427AB1C200022FA87 /* AgeTextField.swift */; };
+		DF73AD6927CCD2B200ECA0C5 /* GenderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBB9027AB19EC0022FA87 /* GenderTextField.swift */; };
+		DF73AD6B27CCD2B400ECA0C5 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBB9B27ADBFB70022FA87 /* PersonTableViewCell.swift */; };
+		DF73AD6D27CCD2B800ECA0C5 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBB7627A8DF820022FA87 /* ViewControllerExtensions.swift */; };
+		DF73AD6F27CCD2BD00ECA0C5 /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEBB7B27A8E20B0022FA87 /* TextFieldExtensions.swift */; };
+		DF73AD7127CCD2C000ECA0C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F532797F05E0035F735 /* LoginViewController.swift */; };
+		DF73AD7327CCD2C400ECA0C5 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F71279828DA0035F735 /* BirthdayViewController.swift */; };
+		DF73AD7527CCD2C700ECA0C5 /* NewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F7527983B1B0035F735 /* NewPersonViewController.swift */; };
+		DF73AD7727CCD2CB00ECA0C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F672798001C0035F735 /* User.swift */; };
+		DF73AD7927CCD2CE00ECA0C5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F6A279800EA0035F735 /* Person.swift */; };
+		DF73AD8C27CCD50600ECA0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73AD8B27CCD50600ECA0C5 /* AppDelegate.swift */; };
+		DF73AD9027CCD52100ECA0C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73AD8F27CCD52100ECA0C5 /* SceneDelegate.swift */; };
+		DF73AD9F27CCD7E200ECA0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF965F5A2797F0650035F735 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF73AD5227CCD28200ECA0C5 /* TSD5UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSD5UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF73AD8B27CCD50600ECA0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF73AD8F27CCD52100ECA0C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF73ADA327CCD81A00ECA0C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF965F532797F05E0035F735 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF965F5B2797F0650035F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF965F672798001C0035F735 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DF965F6A279800EA0035F735 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DF965F71279828DA0035F735 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		DF965F7527983B1B0035F735 /* NewPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonViewController.swift; sourceTree = "<group>"; };
+		DFBEBB7627A8DF820022FA87 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		DFBEBB7B27A8E20B0022FA87 /* TextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtensions.swift; sourceTree = "<group>"; };
+		DFBEBB9027AB19EC0022FA87 /* GenderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTextField.swift; sourceTree = "<group>"; };
+		DFBEBB9427AB1C200022FA87 /* AgeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeTextField.swift; sourceTree = "<group>"; };
+		DFBEBB9B27ADBFB70022FA87 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF73AD4F27CCD28200ECA0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF965F432797F05E0035F735 = {
+			isa = PBXGroup;
+			children = (
+				DF965F4E2797F05E0035F735 /* TSDProject5 */,
+			);
+			sourceTree = "<group>";
+		};
+		DF965F4D2797F05E0035F735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF73AD5227CCD28200ECA0C5 /* TSD5UIPickerView.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DF965F4E2797F05E0035F735 /* TSDProject5 */ = {
+			isa = PBXGroup;
+			children = (
+				DF73AD8B27CCD50600ECA0C5 /* AppDelegate.swift */,
+				DF73AD8F27CCD52100ECA0C5 /* SceneDelegate.swift */,
+				DFBEBB8127A92EB90022FA87 /* Views */,
+				DFBEBB7927A8DF900022FA87 /* Extensions */,
+				DF965F6D279801B10035F735 /* ViewController */,
+				DF965F6F279801C10035F735 /* Model */,
+				DF965F5A2797F0650035F735 /* LaunchScreen.storyboard */,
+				DF73ADA327CCD81A00ECA0C5 /* Info.plist */,
+				DF965F4D2797F05E0035F735 /* Products */,
+			);
+			name = TSDProject5;
+			path = TSD5UIPickerView;
+			sourceTree = "<group>";
+		};
+		DF965F6D279801B10035F735 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DF965F532797F05E0035F735 /* LoginViewController.swift */,
+				DF965F71279828DA0035F735 /* BirthdayViewController.swift */,
+				DF965F7527983B1B0035F735 /* NewPersonViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DF965F6F279801C10035F735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF965F672798001C0035F735 /* User.swift */,
+				DF965F6A279800EA0035F735 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFBEBB7927A8DF900022FA87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEBB7627A8DF820022FA87 /* ViewControllerExtensions.swift */,
+				DFBEBB7B27A8E20B0022FA87 /* TextFieldExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFBEBB8127A92EB90022FA87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFBEBB9427AB1C200022FA87 /* AgeTextField.swift */,
+				DFBEBB9027AB19EC0022FA87 /* GenderTextField.swift */,
+				DFBEBB9B27ADBFB70022FA87 /* PersonTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF73AD5127CCD28200ECA0C5 /* TSD5UIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF73AD6327CCD28600ECA0C5 /* Build configuration list for PBXNativeTarget "TSD5UIPickerView" */;
+			buildPhases = (
+				DF73AD4E27CCD28200ECA0C5 /* Sources */,
+				DF73AD4F27CCD28200ECA0C5 /* Frameworks */,
+				DF73AD5027CCD28200ECA0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSD5UIPickerView;
+			productName = TSD5UIPickerView;
+			productReference = DF73AD5227CCD28200ECA0C5 /* TSD5UIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF965F442797F05E0035F735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DF73AD5127CCD28200ECA0C5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DF965F472797F05E0035F735 /* Build configuration list for PBXProject "TSD5UIPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF965F432797F05E0035F735;
+			productRefGroup = DF965F4D2797F05E0035F735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF73AD5127CCD28200ECA0C5 /* TSD5UIPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF73AD5027CCD28200ECA0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF73AD9F27CCD7E200ECA0C5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF73AD4E27CCD28200ECA0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF73AD7127CCD2C000ECA0C5 /* LoginViewController.swift in Sources */,
+				DF73AD9027CCD52100ECA0C5 /* SceneDelegate.swift in Sources */,
+				DF73AD6B27CCD2B400ECA0C5 /* PersonTableViewCell.swift in Sources */,
+				DF73AD7527CCD2C700ECA0C5 /* NewPersonViewController.swift in Sources */,
+				DF73AD6927CCD2B200ECA0C5 /* GenderTextField.swift in Sources */,
+				DF73AD7327CCD2C400ECA0C5 /* BirthdayViewController.swift in Sources */,
+				DF73AD7727CCD2CB00ECA0C5 /* User.swift in Sources */,
+				DF73AD6F27CCD2BD00ECA0C5 /* TextFieldExtensions.swift in Sources */,
+				DF73AD8C27CCD50600ECA0C5 /* AppDelegate.swift in Sources */,
+				DF73AD7927CCD2CE00ECA0C5 /* Person.swift in Sources */,
+				DF73AD6727CCD2AF00ECA0C5 /* AgeTextField.swift in Sources */,
+				DF73AD6D27CCD2B800ECA0C5 /* ViewControllerExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF965F5A2797F0650035F735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF965F5B2797F0650035F735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF73AD6427CCD28600ECA0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				INFOPLIST_FILE = TSD5UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TSD5UIPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF73AD6527CCD28600ECA0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				INFOPLIST_FILE = TSD5UIPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TSD5UIPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF965F5E2797F0650035F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF965F5F2797F0650035F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF73AD6327CCD28600ECA0C5 /* Build configuration list for PBXNativeTarget "TSD5UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF73AD6427CCD28600ECA0C5 /* Debug */,
+				DF73AD6527CCD28600ECA0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF965F472797F05E0035F735 /* Build configuration list for PBXProject "TSD5UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF965F5E2797F0650035F735 /* Debug */,
+				DF965F5F2797F0650035F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF965F442797F05E0035F735 /* Project object */;
+}

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TSDProject5
+//  TSD5UIPickerView
 //
-//  Created by Дмитрий Геращенко on 19.01.2022.
+//  Created by Дмитрий Геращенко on 28.02.2022.
 //
 
 import UIKit
